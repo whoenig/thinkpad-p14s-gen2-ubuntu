@@ -2,10 +2,12 @@
 
 The Thinkpad P14s Gen2 has good specification for a mobile workstation (Up to 48 GB RAM, up to i7 i7-1165G7, NVIDIA T500 4 GB). However, it doesn't work very well out of the box when installing Ubuntu 20.04: there are issues with respect to BlueTooth, limited CPU power, and inadequate fan control.
 
-## Proper Suspend
+## BIOS Settings
 
 * Make sure you have BIOS 1.40 or newer
-* In the BIOS, change the suspend mode to "S3" (otherwise fan might be operating during standby)
+* In the BIOS (Enter, followed by F1 during boot), change under "Config/Power":
+  * Sleep State to "Linux S3" (otherwise fan might be operating during standby)
+  * Intel SpeedStep Technology to "On"
 
 
 ## Wifi+BlueTooth
