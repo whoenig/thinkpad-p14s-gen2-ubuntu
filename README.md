@@ -12,12 +12,12 @@ The Thinkpad P14s Gen2 has good specification for a mobile workstation (Up to 48
 
 ## Wifi+BlueTooth
 
-* Update kernel to 5.13 (this will enable WiFi and BlueTooth):
+* Update kernel to 5.14 (this will enable WiFi and BlueTooth):
 
 ```
 sudo add-apt-repository ppa:tuxinvader/lts-mainline
 sudo apt update
-sudo apt install linux-generic-5.13
+sudo apt install linux-generic-5.14
 ```
 
 ## Avoid Systemlog errors about i2c HID
