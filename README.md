@@ -102,3 +102,9 @@ sudo systemctl daemon-reload
 sudo systemctl start wattage.service
 sudo systemctl enable wattage.service
 ```
+
+## Issues
+
+### Suspend not working
+
+Try purging the nvidia drivers and re-installing it (potentially an older version), see https://forums.developer.nvidia.com/t/black-screen-when-resuming-systemctl-suspend-using-nvidia-driver-470-57-02-with-kernel-5-8-0-63-generic-on-gtx-970-xubuntu-20-04-lts/184644.
