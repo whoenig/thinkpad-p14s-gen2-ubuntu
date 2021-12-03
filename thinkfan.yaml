@@ -1,3 +1,5 @@
+sensors:
+  - tpacpi: /proc/acpi/ibm/thermal
 fans:
   - tpacpi: /proc/acpi/ibm/fan
 
