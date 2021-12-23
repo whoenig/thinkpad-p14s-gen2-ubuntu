@@ -92,6 +92,7 @@ coretemp
 Throttled is not working properly for P14s Gen2, see https://github.com/erpalma/throttled/issues/265.
 However, a static fix (originally published by academo and faustusdotbe) works well.
 
+* Install acpi `sudo apt install acpi`
 * Create a new folder, e.g., `~/sw/powerlimit`
 * Copy `powerlimit.sh` and `wait-watt.sh` to `~/sw/powerlimit` and make them executable (`chmod +x`)
 * Update the path in `wattage.service` and copy to `/etc/systemd/system`
