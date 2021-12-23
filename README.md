@@ -108,3 +108,13 @@ sudo systemctl enable wattage.service
 ### Suspend not working
 
 Try purging the nvidia drivers and re-installing it (potentially an older version), see https://forums.developer.nvidia.com/t/black-screen-when-resuming-systemctl-suspend-using-nvidia-driver-470-57-02-with-kernel-5-8-0-63-generic-on-gtx-970-xubuntu-20-04-lts/184644.
+
+## Other
+
+### Avoid Computer stall when low on memory
+
+When running low on main memory, your system can become unresponsive to the point where you need to reboot. Even switching terminals or logging in via ssh will not work in such cases. https://github.com/rfjakob/earlyoom is a good solution, that kills a process before the system enters an unresponsive state. Install via
+
+```
+sudo apt install earlyoom
+```
