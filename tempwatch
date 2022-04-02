@@ -1,0 +1,1 @@
+watch -n .5 'cat /proc/cpuinfo | grep "MHz" && echo && sensors | grep "Core" && echo && cat /proc/acpi/ibm/fan | head -n 3 | tail -n 2 && echo "" && cat /sys/devices/virtual/powercap/intel-rapl-mmio/intel-rapl-mmio:0/constraint_0_power_limit_uw && echo && cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor && echo && nvidia-smi'
