@@ -119,3 +119,15 @@ When running low on main memory, your system can become unresponsive to the poin
 ```
 sudo apt install earlyoom
 ```
+
+### Monitoring wattage, fan speed, CPU temps, GPU usage
+
+Copy `tempwatch` to `/usr/local/bin/` and make it executable: `chmod +x /usr/local/bin/tempwatch`. Opening a new terminal and launching `tempwatch` will allow you to monitor, with a refresh rate of .5s:
+
+- CPU freq for each thread
+- Temperature for each core
+- Fan speed
+- Fan level
+- Wattage (in mw)
+- Current mode (quiet/balanced/performance)
+- GPU usage
