@@ -55,7 +55,7 @@ Those modes seem to not only control the power limit, but also the fan profile (
 Compile and install the latest version:
 
 ```
-git clone https://github.com/vmatare/thinkfan
+git clone -b 1.3.1 --single-branch https://github.com/vmatare/thinkfan
 cd thinkfan
 mkdir build
 cd build
@@ -109,6 +109,10 @@ sudo systemctl enable wattage.service
 ### Suspend not working
 
 Try purging the nvidia drivers and re-installing it (potentially an older version), see https://forums.developer.nvidia.com/t/black-screen-when-resuming-systemctl-suspend-using-nvidia-driver-470-57-02-with-kernel-5-8-0-63-generic-on-gtx-970-xubuntu-20-04-lts/184644.
+
+### High CPU utilization of Xorg
+
+https://forums.developer.nvidia.com/t/high-cpu-usage-on-xorg-when-the-external-monitor-is-plugged-in/169173/21
 
 ## Other
 
