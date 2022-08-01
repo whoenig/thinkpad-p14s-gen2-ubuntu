@@ -1,6 +1,6 @@
-# Configuration of a ThinkPad P14s Gen2 to work with Ubuntu (20.04)
+# Configuration of a ThinkPad P14s Gen2 to work with Ubuntu (20.04, 21.04, 21.10, 22.04)
 
-The Thinkpad P14s Gen2 has good specification for a mobile workstation (Up to 48 GB RAM, up to i7 i7-1165G7, NVIDIA T500 4 GB). However, it doesn't work very well out of the box when installing Ubuntu 20.04: there are issues with respect to BlueTooth, limited CPU power, and inadequate fan control.
+The Thinkpad P14s Gen2 has good specification for a mobile workstation (Up to 48 GB RAM, up to i7 i7-1165G7, NVIDIA T500 4 GB). However, it doesn't work very well out of the box when installing Ubuntu 20.04: there are issues with respect to BlueTooth, limited CPU power, and inadequate fan control. The tricks below will help manage a few weaknesses of this machine under Ubuntu. They have been tested and shown to work with 20.04, 21.04, 21.10, and 22.04.
 
 ## BIOS Settings
 
